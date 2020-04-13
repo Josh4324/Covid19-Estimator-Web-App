@@ -1,6 +1,6 @@
 {
   "short_name": "COVID 19 Estimator",
-  "name": "Create React App Sample",
+  "name": "Covid19 Estimator",
   "icons": [{
       "src": "logo64.png",
       "sizes": "64x64 32x32 24x24 16x16",
