@@ -6,7 +6,6 @@ const Home = (props) => {
   let caseref = useRef(null);
   let bedref = useRef(null);
   let periodref = useRef(null);
-  console.log(props);
   const submit = (evt) => {
     evt.preventDefault();
     const data = {
