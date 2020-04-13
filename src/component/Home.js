@@ -76,7 +76,6 @@ const Home = (props) => {
             <div className="formbox">
               <label htmlFor="period">Period Type</label>
               <select ref={periodref} name="" data-period-type id="period">
-                <option value="">Select One</option>
                 <option value="Days">Days</option>
                 <option value="Weeks">Weeks</option>
                 <option value="Months">Months</option>
