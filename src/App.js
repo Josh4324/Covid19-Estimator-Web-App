@@ -102,7 +102,6 @@ function App() {
       },
     };
     setResult(result);
-    console.log(result);
   };
   return (
     <div className="App">
