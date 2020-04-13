@@ -37,7 +37,7 @@ const Home = (props) => {
                 type="number"
                 id="population"
                 placeholder="Enter Population"
-                data-population
+                data-population=""
               />
             </div>
 
@@ -48,7 +48,7 @@ const Home = (props) => {
                 type="text"
                 id="time"
                 placeholder="Enter Time to Elapse"
-                data-time-to-elapse
+                data-time-to-elapse=""
               />
             </div>
 
@@ -59,7 +59,7 @@ const Home = (props) => {
                 type="text"
                 id="cases"
                 placeholder="Enter Reported Cases"
-                data-reported-cases
+                data-reported-cases=""
               />
             </div>
 
@@ -70,13 +70,13 @@ const Home = (props) => {
                 type="text"
                 id="beds"
                 placeholder="Enter Total Hospital Beds"
-                data-total-hospital-beds
+                data-total-hospital-beds=""
               />
             </div>
 
             <div className="formbox">
               <label htmlFor="period">Period Type</label>
-              <select ref={periodref} name="" data-period-type id="period">
+              <select ref={periodref} name="" data-period-type="" id="period">
                 <option value="">Select One</option>
                 <option value="Days">Days</option>
                 <option value="Weeks">Weeks</option>
@@ -84,7 +84,12 @@ const Home = (props) => {
               </select>
             </div>
 
-            <input type="submit" id="submit" value="Submit" data-go-estimate />
+            <input
+              type="submit"
+              id="submit"
+              value="Submit"
+              data-go-estimate=""
+            />
           </form>
         </section>
       </main>
