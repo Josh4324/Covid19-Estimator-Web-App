@@ -1,38 +1,150 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav {
+  background-color: blue;
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inner-nav {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.h2 {
+  text-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.p {
+  margin: 0;
+  display: inline-block;
+  padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: blue;
+  width: 100%;
+}
+
+.inner-footer {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.formblock {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  background-color: aqua;
+  box-sizing: border-box;
+  padding: 30px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.formbox {
+  margin-bottom: 10px;
+}
+
+#submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border-color: blue;
+  cursor: pointer;
+  color: white;
+}
+
+.result {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: aqua;
+  padding: 20px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+}
+
+.block {
+  display: block;
+}
+
+.datablock {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.label {
+  font-size: 14px;
+}
+
+.res {
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+@media (max-width:540px) {
+  .formblock {
+    width: 90%;
+    margin-bottom: 40px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .h2 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .result {
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 50px;
   }
 }
