@@ -5,7 +5,7 @@ body {
 }
 
 .nav {
-  background-color: blue;
+  background-color: rgb(15, 102, 245);
   height: 50px;
 }
 
@@ -39,7 +39,7 @@ a {
 .footer {
   position: fixed;
   bottom: 0px;
-  background-color: blue;
+  background-color: rgb(15, 102, 245);
   width: 100%;
 }
 
@@ -56,7 +56,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  background-color: rgb(165, 180, 247);
+  background-color: white;
   box-sizing: border-box;
   padding: 30px;
   border-top-left-radius: 50px;
@@ -83,15 +83,24 @@ select {
   margin-bottom: 10px;
 }
 
+h3 {
+  background-color: rgb(15, 102, 245)e;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 #submit {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  background-color: blue;
+  width: 100%;
+  background-color: rgb(15, 102, 245);
   border-radius: 5px;
   padding: 5px 15px;
-  border-color: blue;
+  border-color: rgb(15, 102, 245);
   cursor: pointer;
   color: white;
 }
@@ -104,11 +113,11 @@ select {
   justify-content: space-between;
   margin-top: 30px;
   margin-bottom: 50px;
-  background-color: rgb(165, 180, 247);
+  background-color: white;
   padding: 20px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
-
+  box-shadow: 3px 3px 3px 3px rgb(206, 202, 202);
 }
 
 .block {
@@ -118,7 +127,7 @@ select {
 .datablock {
   margin-bottom: 10px;
   padding: 10px;
-  background-color: blue;
+  background-color: rgb(15, 102, 245);
   color: white;
   border-radius: 10px;
   box-shadow: 3px 3px 3px 3px rgb(247, 244, 244);
@@ -152,6 +161,6 @@ select {
   .result {
     flex-direction: column;
     width: 80%;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 }
