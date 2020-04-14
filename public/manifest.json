@@ -30,6 +30,6 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "blue",
-  "background_color": "aqua",
+  "background_color": "blue",
   "orientation": "portrait-primary"
 }
