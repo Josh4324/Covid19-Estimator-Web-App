@@ -56,11 +56,12 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  background-color: aqua;
+  background-color: rgb(165, 180, 247);
   box-sizing: border-box;
   padding: 30px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
+  box-shadow: 3px 3px 3px 3px rgb(206, 202, 202);
 }
 
 label {
@@ -102,7 +103,8 @@ select {
   margin-right: auto;
   justify-content: space-between;
   margin-top: 30px;
-  background-color: aqua;
+  margin-bottom: 50px;
+  background-color: rgb(165, 180, 247);
   padding: 20px;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;
@@ -115,7 +117,11 @@ select {
 
 .datablock {
   margin-bottom: 10px;
-  padding-left: 20px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgb(247, 244, 244);
 }
 
 .label {
